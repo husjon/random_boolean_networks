@@ -19,7 +19,8 @@ def main():
     img = Image.new('RGB', (ITERATIONS, NODES+24), color='black')
 
     rbn = RandomBooleanNetwork(node_count=NODES,
-                               neighbor_count=NODE_NEIGHBOR_COUNT)
+                               neighbor_count=NODE_NEIGHBOR_COUNT,
+                               seed=None)
     rbn.setup()
 
     draw = ImageDraw.Draw(img)
