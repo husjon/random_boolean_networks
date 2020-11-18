@@ -1,0 +1,6 @@
+__pycache__/
+.vscode/
+
+Pipfile.lock
+rbn.log
+rbn.png
