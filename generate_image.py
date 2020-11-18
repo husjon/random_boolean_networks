@@ -24,15 +24,19 @@ def main():
 
     draw = ImageDraw.Draw(img)
 
+    point_list_on = []
+    point_list_off = []
     for i in range(ITERATIONS):
         for j, node in enumerate(rbn.nodes):
             if node.state == 1:
-                draw.point((i, j), fill='yellow')
+                point_list_on.append((i, j))
             else:
-                draw.point((i, j), fill='black')
+                point_list_off.append((i, j))
 
         rbn.iterate()
 
+    draw.point(point_list_on, fill='yellow')
+    draw.point(point_list_off, fill='black')
     img.save('rbn.png')
 
 
