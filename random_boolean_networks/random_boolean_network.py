@@ -2,8 +2,8 @@ import logging
 import random
 import sys
 
-from node import Node
-from truth_table import TruthTable
+from .node import Node
+from .truth_table import TruthTable
 
 
 class RandomBooleanNetwork:

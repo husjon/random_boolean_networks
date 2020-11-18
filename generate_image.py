@@ -2,7 +2,7 @@ import logging
 
 from PIL import Image, ImageDraw, ImageFont
 
-from random_boolean_network import RandomBooleanNetwork
+from random_boolean_networks import RandomBooleanNetwork
 
 logging.basicConfig(
     format='%(asctime)-15s %(levelname)-8s %(message)s',
