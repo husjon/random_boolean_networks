@@ -36,7 +36,7 @@ def main():
                     i * SCALING + SCALING,  # x2
                     j * SCALING + SCALING   # y2
                 )
-                draw.rectangle(rect, fill='red')
+                draw.rectangle(rect, fill='red', outline='red' if SCALING == 1 else 'black')
 
         rbn.iterate()
 
