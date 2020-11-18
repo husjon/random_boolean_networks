@@ -21,15 +21,16 @@ class RandomBooleanNetwork:
 
         self.seed = seed or random.randrange(sys.maxsize)
         random.seed(self.seed)
-        logging.debug(f'SEED: {self.seed}')
-
-
 
         self.node_count = node_count
         self.neighbor_count = neighbor_count
         self.truth_table = truth_table or TruthTable(dimentions=neighbor_count)
 
         self.__nodes = []
+
+        logging.debug(f'SEED:           {self.seed}')
+        logging.debug(f'NODE COUNT:     {self.node_count}')
+        logging.debug(f'NEIGHBOR_COUNT: {self.neighbor_count}')
 
     @property
     def nodes(self):

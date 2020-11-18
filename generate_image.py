@@ -4,7 +4,11 @@ from PIL import Image, ImageDraw
 
 from random_boolean_network import RandomBooleanNetwork
 
-logging.basicConfig(filename='rbn.log', level=logging.DEBUG)
+logging.basicConfig(
+    format='%(asctime)-15s %(levelname)-8s %(message)s',
+    filename='rbn.log',
+    level=logging.DEBUG
+)
 
 NODES = 600
 NODE_NEIGHBOR_COUNT = 10
