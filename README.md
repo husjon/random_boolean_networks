@@ -32,3 +32,15 @@ Example:
 | 5     | 101   | 0     |
 | 6     | 110   | 1     |
 | 7     | 111   | 1     |
+
+
+# Example images
+![rbn.8372505475179784578.png]
+
+![rbn.5726690637511444178.png]
+
+![rbn.9017506907730236911.png]
+
+[rbn.8372505475179784578.png]: https://github.com/husjon/random_boolean_networks/raw/master/images/rbn.8372505475179784578.png
+[rbn.5726690637511444178.png]: https://github.com/husjon/random_boolean_networks/raw/master/images/rbn.5726690637511444178.png
+[rbn.9017506907730236911.png]: https://github.com/husjon/random_boolean_networks/raw/master/images/rbn.9017506907730236911.png
