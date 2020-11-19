@@ -35,12 +35,21 @@ Example:
 
 
 # Example images
-![rbn.8372505475179784578.png]
 
-![rbn.5726690637511444178.png]
+Using a pixel-scaling factor of 5
 
-![rbn.9017506907730236911.png]
+![](images/rbn.371205695878696821.png)
+  
+![](images/rbn.395658203584986781.png)
 
-[rbn.8372505475179784578.png]: images/rbn.8372505475179784578.png
-[rbn.5726690637511444178.png]: images/rbn.5726690637511444178.png
-[rbn.9017506907730236911.png]: images/rbn.9017506907730236911.png
+![](images/rbn.1834728841889184754.png)
+
+![](images/rbn.4301544086072131052.png)
+
+![](images/rbn.4805596401341110674.png)
+
+![](images/rbn.8841853842464024578.png)
+
+
+Generated with older version
+![](images/rbn.8372505475179784578.png)
