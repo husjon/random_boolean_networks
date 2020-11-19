@@ -6,7 +6,7 @@ from random_boolean_networks import RandomBooleanNetwork
 
 logging.basicConfig(format='%(asctime)-15s %(levelname)-8s %(message)s',
                     filename='rbn.log',
-                    level=logging.DEBUG)
+                    level=logging.INFO)
 
 NODES = 20
 NODE_NEIGHBOR_COUNT = 3

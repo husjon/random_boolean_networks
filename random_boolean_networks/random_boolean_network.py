@@ -28,9 +28,9 @@ class RandomBooleanNetwork:
 
         self.__nodes = []
 
-        logging.debug(f'SEED:           {self.seed}')
-        logging.debug(f'NODE COUNT:     {self.node_count}')
-        logging.debug(f'NEIGHBOR_COUNT: {self.neighbor_count}')
+        logging.info(f'SEED:           {self.seed}')
+        logging.info(f'NODE COUNT:     {self.node_count}')
+        logging.info(f'NEIGHBOR_COUNT: {self.neighbor_count}')
 
     @property
     def nodes(self):
