@@ -39,11 +39,13 @@ class RandomBooleanNetwork:
     def setup(self):
         self.__nodes = []
 
+        # Create nodes
         for i in range(self.node_count):
             node_id = str(i).rjust(len(str(self.node_count)), '0')
             _node = Node(name='node-' + node_id)
             self.__nodes.append(_node)
 
+        # Give each node a set of neighboring nodes
         for _node in self.__nodes:
             node_neighbors = random.choices(
                 population=self.__nodes,
