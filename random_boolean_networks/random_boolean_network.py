@@ -52,12 +52,5 @@ class RandomBooleanNetwork:
             _node.connect(node_neighbors)
 
     def iterate(self):
-        current_states = {}
         for node in self.__nodes:
-            current_states[node.name] = node.current_state
-
-        for node in self.__nodes:
-            new_state = self.truth_table[current_states[node.name]]['value']
-            node.state = new_state
-
-        del (current_states)
+            node.state = self.truth_table[node.current_state]['value']
