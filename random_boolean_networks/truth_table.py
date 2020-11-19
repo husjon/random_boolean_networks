@@ -1,3 +1,4 @@
+import logging
 import random
 
 
@@ -13,3 +14,6 @@ class TruthTable(dict):
                 'input': _input,
                 'value': random.randint(0, 1)
             }
+
+        truth_table = ''.join([str(t['value']) for t in self.values()])
+        logging.info(f'TRUTH TABLE:    {truth_table}')
